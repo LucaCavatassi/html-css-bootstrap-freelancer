@@ -1,11 +1,7 @@
 @media screen and (min-width:768px) {
     .ms-smaller-container {
-        width: 60%;
+        width: 70%;
         max-width: 1320px;
-    }
-
-    .ms-smaller-container-bottom {
-        width: 60%;
     }
 }
 
