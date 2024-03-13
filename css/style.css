@@ -1,0 +1,61 @@
+/* debug */
+.debug-box {
+    background-color: green;
+    width: 100%;
+    height: 200px;
+}
+
+[class^=col-] {
+    border: 1px solid black;
+    height: 200px;
+}
+
+/* COMMON */
+.ms-smaller-container-bottom{
+    width: 70%;
+}
+/* HEADER */
+.ms-header {
+    height: var(--header-height);
+    background-color: var(--header-blue);
+}
+
+/* HERO */
+.ms-hero {
+    padding-top: var(--header-height);
+    /* debug */
+    background-color: blue;
+}
+
+/* PORTFOLIO */
+.ms-portfolio {
+    /* debug */
+    background-color: red;
+}
+
+/* ABOUT */
+.ms-about {
+    /* debug */
+    background-color: blue;
+}
+/* debug */
+.ms-about .col-12{
+    height: 100%;
+}
+
+
+/* CONTACT */
+.ms-contact{
+    /* debug */
+    background-color: red;
+}
+
+/* SOCIALS */
+.ms-socials{
+    background-color: var(--socials-blue);
+}
+
+/* FOOTER */
+.ms-footer{
+    background-color: var(--header-blue);
+}
