@@ -7,16 +7,27 @@
 
 [class^=col-] {
     border: 1px solid black;
-    height: 200px;
+    min-height: 200px;
 }
-
-/* COMMON */
+/* RESET */
 img {
     max-width: 100%;
 }
 
+/* COMMON */
+/* layout */
 .ms-smaller-container-bottom {
     width: 70%;
+}
+
+/* star styling */
+.ms-star span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ms-line {
+    width: 17%;
+    border-bottom: 0.2rem solid white;
 }
 
 /* HEADER */
@@ -28,8 +39,12 @@ img {
 /* HERO */
 .ms-hero {
     padding-top: var(--header-height);
-    /* debug */
-    background-color: blue;
+    background-color: var(--hero-green);
+}
+
+.ms-hero-img img {
+    display: block;
+    width: 50%;
 }
 
 /* PORTFOLIO */
