@@ -11,9 +11,14 @@
 }
 
 /* COMMON */
-.ms-smaller-container-bottom{
+img {
+    max-width: 100%;
+}
+
+.ms-smaller-container-bottom {
     width: 70%;
 }
+
 /* HEADER */
 .ms-header {
     height: var(--header-height);
@@ -39,23 +44,22 @@
     background-color: blue;
 }
 /* debug */
-.ms-about .col-12{
+.ms-about .col-12 {
     height: 100%;
 }
 
-
 /* CONTACT */
-.ms-contact{
+.ms-contact {
     /* debug */
     background-color: red;
 }
 
 /* SOCIALS */
-.ms-socials{
+.ms-socials {
     background-color: var(--socials-blue);
 }
 
 /* FOOTER */
-.ms-footer{
+.ms-footer {
     background-color: var(--header-blue);
 }
