@@ -17,8 +17,11 @@
 <body>
     <!-- HEADER -->
     <header>
-        <div class="container-fluid position-fixed ms-header">
-
+        <div class="container-fluid ms-header position-fixed">
+            <div class="row">
+                <div class="col-12">
+                </div>
+            </div>
         </div>
     </header>
     <!-- /HEADER -->
@@ -36,9 +39,9 @@
                         <div class="ms-hero-text text-white text-center py-4">
                             <h1>START BOOTSTRAP</h1>
                             <div class="ms-star pb-2">
-                                <span class="ms-line"></span>
+                                <span class="ms-line ms-line-white"></span>
                                 <span class="fs-3"><i class="fa-solid fa-star"></i></span>
-                                <span class="ms-line"></span>
+                                <span class="ms-line ms-line-white"></span>
                             </div>
                             <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
                         </div>
@@ -51,27 +54,48 @@
         <!-- PORTFOLIO -->
         <section class="ms-portfolio">
             <div class="container">
-                <div class="row pt-5">
-                    <div class="col-12"></div>
+                <div class="row pt-4">
+                    <div class="col-12">
+                        <div class="ms-portfolio-tex text-center text-black">
+                            <span class="fs-2 fw-semibold">PORTFOLIO</span>
+                            <div class="ms-star pb-1">
+                                <span class="ms-line ms-line-black"></span>
+                                <span class="fs-3"><i class="fa-solid fa-star"></i></span>
+                                <span class="ms-line ms-line-black"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row gy-3 py-5">
+                <div class="row gy-3 py-2 mb-5">
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="debug-box"></div>
+                        <div class="ms-portfolio-img">
+                            <img src="./img/cabin.png" alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="debug-box"></div>
+                        <div class="ms-portfolio-img">
+                            <img src="./img/cake.png" alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="debug-box"></div>
+                        <div class="ms-portfolio-img">
+                            <img src="./img/circus.png" alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="debug-box"></div>
+                        <div class="ms-portfolio-img">
+                            <img src="./img/game.png" alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="debug-box"></div>
+                        <div class="ms-portfolio-img">
+                            <img src="./img/safe.png" alt="">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="debug-box"></div>
+                        <div class="ms-portfolio-img">
+                            <img src="./img/submarine.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,14 +105,22 @@
         <!-- ABOUT -->
         <section class="ms-about">
             <div class="container ms-smaller-container-bottom">
-                <div class="row">
+                <div class="row py-4">
                     <div class="col-12">
-                        <div class="ms-about-top text-center">
-                            <h4>About</h4>
+                        <div class="ms-about-top text-center text-white">
+                            <span class="fs-2 fw-semibold">ABOUT</span>
+                            <div class="ms-star py-2">
+                                <span class="ms-line ms-line-white"></span>
+                                <span class="fs-3"><i class="fa-solid fa-star"></i></span>
+                                <span class="ms-line ms-line-white"></span>
+                            </div>
                         </div>
-                        <div class="ms-about-bottom d-flex">
-                            <p class="pe-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatibus velit facilis recusandae amet modi aperiam obcaecati itaque. Temporibus consequatur delectus totam obcaecati et veritatis necessitatibus, eum error iusto neque!</p>
-                            <p class="pe-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione facere at, fugiat alias rerum? Ipsa ad soluta fuga error quisquam ullam. Sapiente, corrupti at numquam maiores ex vel soluta? </p>
+                        <div class="ms-about-bottom d-flex flex-column flex-md-row text-white">
+                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for east customization.</p>
+                            <p>Wheter you're a student looking to showcase your work a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        </div>
+                        <div class="ms-about-download text-white text-center py-4">
+                            <a class="p-2" href="#"><i class="fa-solid fa-download"></i> Download</a>
                         </div>
                     </div>
                 </div>
@@ -99,10 +131,19 @@
         <!-- CONTACT ME -->
         <section class="ms-contact">
             <div class="container ms-smaller-container-bottom">
-                <div class="row">
+                <div class="row py-4">
                     <div class="col-12">
-                        <div class="ms-about-top text-center">
-                            <h4>Contact</h4>
+                        <div class="ms-contact-top text-center">
+                            <span class="fs-2 fw-semibold">CONTACT ME</span>
+                            <div class="ms-star pb-1">
+                                <span class="ms-line ms-line-black"></span>
+                                <span class="fs-3"><i class="fa-solid fa-star"></i></span>
+                                <span class="ms-line ms-line-black"></span>
+                            </div>
+                        </div>
+                        <!-- INSERIRE FORM -->
+                        <div class="ms-contact-form">
+
                         </div>
                     </div>
                 </div>
@@ -131,9 +172,11 @@
     <!-- FOOTER -->
     <footer>
         <section class="ms-footer">
-            <div class="row">
-                <div class="col-12 text-center text-white">
-                    <span>Copyright © Your Website 2019</span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <span>Copyright © Your Website 2019</span>
+                    </div>
                 </div>
             </div>
         </section>

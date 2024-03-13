@@ -7,13 +7,16 @@
 
 [class^=col-] {
     border: 1px solid black;
-    min-height: 200px;
 }
 /* RESET */
 img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* COMMON */
 /* layout */
 .ms-smaller-container-bottom {
@@ -25,9 +28,17 @@ img {
     display: inline-block;
     vertical-align: middle;
 }
+
 .ms-line {
-    width: 17%;
+    width: 15%;
+}
+
+.ms-line-white {
     border-bottom: 0.2rem solid white;
+}
+
+.ms-line-black {
+    border-bottom: 0.2rem solid black;
 }
 
 /* HEADER */
@@ -48,26 +59,24 @@ img {
 }
 
 /* PORTFOLIO */
-.ms-portfolio {
-    /* debug */
-    background-color: red;
+.ms-portfolio-img img {
+    border-radius: 10px;
 }
 
 /* ABOUT */
 .ms-about {
-    /* debug */
-    background-color: blue;
-}
-/* debug */
-.ms-about .col-12 {
-    height: 100%;
+    background-color: var(--hero-green);
 }
 
-/* CONTACT */
-.ms-contact {
-    /* debug */
-    background-color: red;
+.ms-about-bottom {
+    gap: 10px;
 }
+
+.ms-about-download a {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+/* CONTACT */
 
 /* SOCIALS */
 .ms-socials {
