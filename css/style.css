@@ -1,13 +1,3 @@
-/* debug */
-.debug-box {
-    background-color: green;
-    width: 100%;
-    height: 200px;
-}
-
-[class^=col-] {
-    border: 1px solid black;
-}
 /* RESET */
 img {
     max-width: 100%;
@@ -16,6 +6,7 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 /* COMMON */
 /* layout */
@@ -31,6 +22,7 @@ a {
 
 .ms-line {
     width: 15%;
+    border-radius: 5px;
 }
 
 .ms-line-white {
@@ -83,7 +75,19 @@ a {
     background-color: var(--socials-blue);
 }
 
+.ms-socials h4 {
+    font-size: 1rem;
+}
+
+.ms-socials a,span {
+    font-size: 0.9rem;
+}
+
 /* FOOTER */
 .ms-footer {
     background-color: var(--header-blue);
+}
+
+.ms-footer span{
+    font-size: 0.7rem;
 }

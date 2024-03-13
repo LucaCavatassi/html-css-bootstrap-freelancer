@@ -7,3 +7,6 @@
     --header-height: 65px;
 }
 
+.ms-green-text{
+    color: var(--hero-green);
+}
