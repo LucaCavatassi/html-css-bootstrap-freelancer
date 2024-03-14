@@ -18,23 +18,32 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container">
-              <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold" href="#portfolio">PORTFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold" href="#about">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold" href="#contact">CONTACT</a>
-                  </li>
-                </ul>
-              </div>
+
+                <!-- LOGO -->
+                <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
+                <!-- /LOGO -->
+
+                <!-- /HAMBURGER -->
+                <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /HAMBURGER -->
+
+                <!-- NAV -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-semibold" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-semibold" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-semibold" href="#contact">CONTACT</a>
+                    </li>
+                    </ul>
+                </div>
+                <!-- /NAV -->
             </div>
           </nav>
     </header>
@@ -45,12 +54,12 @@
         <!-- HERO -->
         <section class="ms-hero ms-green-bg">
             <div class="container ms-smaller-container">
-                <div class="row pt-4">
+                <div class="row">
                     <div class="col-12">
                         <div class="ms-hero-img d-flex justify-content-center">
                             <img src="./img/avatar.svg" alt="avatar">
                         </div>
-                        <div class="ms-hero-text text-white text-center py-4">
+                        <div class="text-white text-center py-4">
                             <h1>START BOOTSTRAP</h1>
                             <div class="ms-star pb-2">
                                 <span class="ms-line ms-line-white"></span>
@@ -66,11 +75,11 @@
         <!-- /HERO -->
 
         <!-- PORTFOLIO -->
-        <section class="ms-portfolio" id="portfolio">
+        <section id="portfolio">
             <div class="container">
                 <div class="row pt-4">
                     <div class="col-12">
-                        <div class="ms-portfolio-tex text-center text-black">
+                        <div class="text-center ms-text-header-color">
                             <span class="fs-2 fw-semibold">PORTFOLIO</span>
                             <div class="ms-star pb-1">
                                 <span class="ms-line ms-line-black"></span>
@@ -80,35 +89,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="row gy-3 py-2 mb-5">
+                <div class="row g-3 py-2 mb-5">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms-portfolio-img">
-                            <img src="./img/cabin.png" alt="">
+                            <img class="rounded" src="./img/cabin.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms-portfolio-img">
-                            <img src="./img/cake.png" alt="">
+                            <img class="rounded" src="./img/cake.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms-portfolio-img">
-                            <img src="./img/circus.png" alt="">
+                            <img class="rounded" src="./img/circus.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms-portfolio-img">
-                            <img src="./img/game.png" alt="">
+                            <img class="rounded" src="./img/game.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms-portfolio-img">
-                            <img src="./img/safe.png" alt="">
+                            <img class="rounded" src="./img/safe.png" alt="">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="ms-portfolio-img">
-                            <img src="./img/submarine.png" alt="">
+                            <img class="rounded" src="./img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -117,11 +126,11 @@
         <!-- /PORTFOLIO -->
 
         <!-- ABOUT -->
-        <section class="ms-about ms-green-bg" id="about">
+        <section class="ms-green-bg" id="about">
             <div class="container ms-smaller-container-bottom">
                 <div class="row py-4">
                     <div class="col-12">
-                        <div class="ms-about-top text-center text-white">
+                        <div class="text-center text-white">
                             <span class="fs-2 fw-semibold">ABOUT</span>
                             <div class="ms-star py-2">
                                 <span class="ms-line ms-line-white"></span>
@@ -134,7 +143,11 @@
                             <span>Wheter you're a student looking to showcase your work a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span>
                         </div>
                         <div class="ms-about-download text-white text-center py-4">
-                            <a class="p-2" href="#"><i class="fa-solid fa-download"></i> Download</a>
+                            <button type="button" class="btn btn-outline-light">
+                                <a class="p-2" href="#">
+                                    <i class="fa-solid fa-download"></i> Download
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -143,11 +156,11 @@
         <!-- /ABOUT -->
 
         <!-- CONTACT ME -->
-        <section class="ms-contact" id="contact">
+        <section id="contact">
             <div class="container ms-smaller-container-bottom">
                 <div class="row py-4">
                     <div class="col-12">
-                        <div class="ms-contact-top text-center">
+                        <div class="text-center ms-text-header-color mb-3">
                             <span class="fs-2 fw-semibold">CONTACT ME</span>
                             <div class="ms-star pb-1">
                                 <span class="ms-line ms-line-black"></span>
@@ -157,7 +170,46 @@
                         </div>
                         <!-- INSERIRE FORM -->
                         <div class="ms-contact-form">
+                            <form autocomplete="on">
+                                <!-- NAME -->
+                                <div class="form-floating mb-3 ">
+                                    <textarea class="form-control" placeholder="Name" id="name" autocomplete="name"></textarea>
+                                    <label for="name">Name</label>
+                                </div>
+                                <!-- /NAME -->
 
+                                <!-- EMAIL -->
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder="name@example.com" autocomplete="email">
+                                    <label for="email">Email address</label>
+                                </div>
+                                <!-- /EMAIL -->
+                                
+                                <!-- TEL -->
+                                <div class="form-floating mb-3">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" id="phone" autocomplete="tel"></input>
+                                    <label for="phone">Phone Number</label>
+                                </div>
+                                <!-- /TEL -->
+
+                                <!-- COMMENTS -->
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="comments"></textarea>
+                                    <label for="comments">Comments</label>
+                                </div>
+                                <!-- /COMMENTS -->
+
+                                <!-- PRIVACY -->
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="privacy-check">
+                                    <label class="form-check-label" for="privacy-check">I accept the <a class="text-decoration-underline" href="">Privacy Policy</a></label>
+                                </div>
+                                <!-- /PRIVACY -->
+
+                                <!-- SEND -->
+                                <button type="submit" class="btn ms-green-bg text-white">Send</button>
+                                <!-- /SEND -->
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -171,23 +223,31 @@
                 <div class="row py-4 text-white">
                     <!-- location -->
                     <div class="col-12 col-md-4">
-                        <div class="ms-location text-center d-md-flex flex-md-column py-4 px-2">
-                            <h4 class="pb-2">LOCATION</h4>
+                        <div class="text-center d-md-flex flex-md-column py-4 px-2 fs-6">
+                            <h6 class="pb-2">LOCATION</h6>
                             <a href="">2215 John Daniel Drive Clark,</a>
-                            <span href="">MO 54243</span>
+                            <span>MO 54243</span>
                         </div>
                     </div>      
                     <!-- /location -->
 
                     <!-- social -->
                     <div class="col-12 col-md-4">
-                        <div class="ms-social-tab text-center py-4 px-2">
-                            <h4 class="pb-2">AROUND THE WEB</h4>
-                            <div class="ms-links d-flex justify-content-center justify-content-md-between">
-                                <a class="px-4" href="">G</a>
-                                <a class="px-4" href="">T</a>
-                                <a class="px-4" href="">F</a>
-                                <a class="px-4" href="">I</a>
+                        <div class="text-center py-4 fs-6">
+                            <h6 class="pb-2">AROUND THE WEB</h6>
+                            <div class="ms-links d-flex justify-content-center justify-content-md-evenly gap-3">
+                                <div class="ratio ratio-1x1">
+                                    <a class="border border-white rounded-circle d-flex align-items-center justify-content-center" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                                <div class="ratio ratio-1x1">
+                                    <a class="border border-white rounded-circle d-flex align-items-center justify-content-center" href=""><i class="fa-brands fa-google-plus-g"></i></i></a>
+                                </div>
+                                <div class="ratio ratio-1x1">
+                                    <a class="border border-white rounded-circle d-flex align-items-center justify-content-center" href=""><i class="fa-brands fa-x-twitter"></i></a>
+                                </div>
+                                <div class="ratio ratio-1x1">
+                                    <a class="border border-white rounded-circle d-flex align-items-center justify-content-center" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -195,8 +255,8 @@
 
                     <!-- about -->
                     <div class="col-12 col-md-4">
-                        <div class="ms-about-freelancer text-center py-4 px-2">
-                            <h4 class="pb-2">ABOUT FREELANCER</h4>
+                        <div class="text-center py-4 px-2 fs-6">
+                            <h6 class="pb-2">ABOUT FREELANCER</h6>
                             <span>Freelance is a free to use, open source Bootstrap theme create by <span class="ms-green-text">Start Bootstrap</span></span>
                         </div>
                     </div>

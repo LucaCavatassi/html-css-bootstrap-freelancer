@@ -36,7 +36,16 @@ a {
 }
 
 .ms-line-black {
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid var(--header-blue);
+}
+
+/* hover */
+.ms-about-download .btn:hover {
+    color: var(--hero-green);
+}
+
+form .btn:hover {
+    background-color: var(--hero-green-darker);
 }
 
 /* HEADER */
@@ -48,6 +57,7 @@ a {
 .navbar{
     background-color: var(--header-blue);
 }
+
 /* MAIN */
 /* Hero */
 .ms-hero {
@@ -59,17 +69,7 @@ a {
     width: 50%;
 }
 
-/* Portfolio */
-.ms-portfolio-img img {
-    border-radius: 10px;
-}
-
 /* About */
-.ms-about-download a {
-    border: 1px solid white;
-    border-radius: 5px;
-}
-
 @media screen and (min-width: 768px) {
     .ms-about-bottom span {
         width: calc(100% / 2);
@@ -77,18 +77,22 @@ a {
 }
 
 /* Contact */
+textarea {
+    resize: none;
+}
+
+#comments{
+    height: 200px;
+}
 
 /* Socials */
 .ms-socials {
     background-color: var(--socials-blue);
 }
 
-.ms-socials h4 {
-    font-size: 1rem;
-}
-
-.ms-socials a, .ms-socials span {
-    font-size: 0.9rem;
+.ratio{
+    max-width: 62px;
+    max-height: 62px;
 }
 
 /* FOOTER */
