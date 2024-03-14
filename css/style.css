@@ -17,6 +17,7 @@ a {
 
 .ms-smaller-container-bottom {
     width: 70%;
+    max-width: 1100px;
 }
 
 /* star styling */
@@ -61,13 +62,15 @@ a {
 }
 
 /* About */
-.ms-about-bottom {
-    gap: 10px;
-}
-
 .ms-about-download a {
     border: 1px solid white;
     border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .ms-about-bottom span {
+        width: calc(100% / 2);
+    }  
 }
 
 /* Contact */
@@ -81,7 +84,7 @@ a {
     font-size: 1rem;
 }
 
-.ms-socials a,span {
+.ms-socials a, .ms-socials span {
     font-size: 0.9rem;
 }
 
