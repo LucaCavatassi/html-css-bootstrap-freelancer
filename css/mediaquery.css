@@ -3,10 +3,8 @@
         width: 70%;
         max-width: 1320px;
     }
-}
 
-@media screen and (min-width:992px) {
-    .ms-hero-img img{
-        width: 40%;
+    .ms-hero .ms-smaller-container{
+        max-width: 650px;
     }
 }
