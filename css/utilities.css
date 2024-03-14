@@ -1,3 +1,4 @@
+/* CUSTOM PROPERTIES */
 :root {
     /* colors */
     --header-blue: #2C3E50;
@@ -7,6 +8,13 @@
     --header-height: 65px;
 }
 
-.ms-green-text{
+/* COLORS */
+/* text */
+.ms-green-text {
     color: var(--hero-green);
+}
+
+/* bg */
+.ms-green-bg {
+    background-color: var(--hero-green);
 }

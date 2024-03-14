@@ -16,7 +16,7 @@ a {
 }
 
 .ms-smaller-container-bottom {
-    width: 60%;
+    width: 70%;
 }
 
 /* star styling */
@@ -44,10 +44,10 @@ a {
     background-color: var(--header-blue);
 }
 
-/* HERO */
+/* MAIN */
+/* Hero */
 .ms-hero {
     padding-top: var(--header-height);
-    background-color: var(--hero-green);
 }
 
 .ms-hero-img img {
@@ -55,16 +55,12 @@ a {
     width: 50%;
 }
 
-/* PORTFOLIO */
+/* Portfolio */
 .ms-portfolio-img img {
     border-radius: 10px;
 }
 
-/* ABOUT */
-.ms-about {
-    background-color: var(--hero-green);
-}
-
+/* About */
 .ms-about-bottom {
     gap: 10px;
 }
@@ -74,9 +70,9 @@ a {
     border-radius: 5px;
 }
 
-/* CONTACT */
+/* Contact */
 
-/* SOCIALS */
+/* Socials */
 .ms-socials {
     background-color: var(--socials-blue);
 }
