@@ -77,11 +77,22 @@ form .btn:hover {
 }
 
 /* Contact */
+.form-floating :first-child {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+
+.form-floating>label {
+    padding-left: 0;
+}
+
 textarea {
     resize: none;
 }
 
-#comments{
+#comments {
     height: 200px;
 }
 
@@ -90,7 +101,7 @@ textarea {
     background-color: var(--socials-blue);
 }
 
-.ratio{
+.ratio {
     max-width: 62px;
 }
 
