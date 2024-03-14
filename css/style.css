@@ -11,8 +11,12 @@ a {
 
 /* COMMON */
 /* layout */
+.ms-smaller-container {
+    max-width: 650px;
+}
+
 .ms-smaller-container-bottom {
-    width: 70%;
+    width: 60%;
 }
 
 /* star styling */
