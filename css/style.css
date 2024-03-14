@@ -45,6 +45,9 @@ a {
     background-color: var(--header-blue);
 }
 
+.navbar{
+    background-color: var(--header-blue);
+}
 /* MAIN */
 /* Hero */
 .ms-hero {
